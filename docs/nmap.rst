@@ -1,7 +1,21 @@
-.. entah macam mana nak edit ni.
-=====
-aku pun tak tahu
-=====
+NMAP Usage
+==========
+
+Finding Live Hosts
+------------------
+
+  $ nmap -sn 10.0.0.1/24
+  
+  -sn   do not port scan
+  10.0.0.1/24   scan entire subnet 10.0.0.0
+  
+yang ni contoh result
+
+``$ nmap -sn 10.0.0.1
+Do Result
+``
+  
+
 
 * yang ni lagi la pening.... tak dak tollbar langsung
 
