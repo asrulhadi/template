@@ -12,7 +12,8 @@ Finding Live Hosts
 yang ni contoh result
 
 .. code:: console
-
+  :class: monokai
+  
   $ nmap -sn 10.0.0.1
   Do Result
   
