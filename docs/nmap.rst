@@ -11,9 +11,10 @@ Finding Live Hosts
   
 yang ni contoh result
 
-``$ nmap -sn 10.0.0.1
-Do Result
-``
+.. code:: console
+
+  $ nmap -sn 10.0.0.1
+  Do Result
   
 
 
