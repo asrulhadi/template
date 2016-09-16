@@ -17,7 +17,7 @@ yang ni contoh result
   Do Result for code
   
 
-.. code-block:: console
+.. codeblock:: console
   
   $ nmap -sn 10.0.0.1
   Do Result code-block
