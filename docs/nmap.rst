@@ -26,6 +26,7 @@ yang ni contoh result
   # Nmap done at Mon May 09 14:59:41 2016 -- 1 IP address (1 host up) scanned in 14.06 seconds
 
 .. code-block:: python
+
   def bubble_sort(items):
     """ Implementation of bubble sort """
     for i in range(len(items)):
@@ -33,6 +34,28 @@ yang ni contoh result
             if items[j] > items[j+1]:
                 # Swap!
                 items[j], items[j+1] = items[j+1], items[j]
+
+.. code:: python
+
+  def bubble_sort_code(items):
+    """ Implementation of bubble sort """
+    for i in range(len(items)):
+        for j in range(len(items)-1-i):
+            if items[j] > items[j+1]:
+                # Swap!
+                items[j], items[j+1] = items[j+1], items[j]
+
+
+.. highlight:: python
+
+  def bubble_sort_highlight(items):
+    """ Implementation of bubble sort """
+    for i in range(len(items)):
+        for j in range(len(items)-1-i):
+            if items[j] > items[j+1]:
+                # Swap!
+                items[j], items[j+1] = items[j+1], items[j]
+
 
 * yang ni lagi la pening.... tak dak tollbar langsung
 
