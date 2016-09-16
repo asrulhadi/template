@@ -11,26 +11,28 @@ Finding Live Hosts
   
 yang ni contoh result
 
-.. code:: console
-  
-  $ nmap -sn 10.0.0.1
-  Do Result for code
-  
 .. code-block:: console
   
   $ nmap -sn 10.0.0.1
-  Do Result code-block
+  # Nmap 7.10 scan initiated Mon May 09 14:59:34 2016 as: Z:\PentestBox\bin\Nmap\nmap.exe -T3 -oA default dmp.p1.com.my
+  Nmap scan report for dmp.p1.com.my (122.255.96.14)
+  Host is up (0.0015s latency).
+  Not shown: 997 filtered ports
+  PORT     STATE SERVICE
+  80/tcp   open  http
+  443/tcp  open  https
+  9080/tcp open  glrpc
 
-.. codeblock:: console
-  
-  $ nmap -sn 10.0.0.1
-  Do Result codeblock
+  # Nmap done at Mon May 09 14:59:41 2016 -- 1 IP address (1 host up) scanned in 14.06 seconds
 
-.. highlight:: console
-  
-  $ nmap -sn 10.0.0.1
-  Do Result highlight
-
+.. code-block:: python
+  def bubble_sort(items):
+    """ Implementation of bubble sort """
+    for i in range(len(items)):
+        for j in range(len(items)-1-i):
+            if items[j] > items[j+1]:
+                # Swap!
+                items[j], items[j+1] = items[j+1], items[j]
 
 * yang ni lagi la pening.... tak dak tollbar langsung
 
