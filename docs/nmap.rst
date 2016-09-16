@@ -16,11 +16,15 @@ yang ni contoh result
   $ nmap -sn 10.0.0.1
   Do Result for code
   
+.. code-block:: console
+  
+  $ nmap -sn 10.0.0.1
+  Do Result code-block
 
 .. codeblock:: console
   
   $ nmap -sn 10.0.0.1
-  Do Result code-block
+  Do Result codeblock
 
 .. highlight:: console
   
