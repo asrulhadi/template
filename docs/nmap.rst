@@ -14,18 +14,18 @@ yang ni contoh result
 .. code:: console
   
   $ nmap -sn 10.0.0.1
-  Do Result
+  Do Result for code
   
 
 .. code-block:: console
   
   $ nmap -sn 10.0.0.1
-  Do Result
+  Do Result code-block
 
 .. highlight:: console
   
   $ nmap -sn 10.0.0.1
-  Do Result
+  Do Result highlight
 
 
 * yang ni lagi la pening.... tak dak tollbar langsung
